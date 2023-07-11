@@ -1,0 +1,102 @@
+.container_projet {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.modal_Projet_Content {
+    background-color: #202126;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.retour {
+    position: absolute;
+    margin: 20px 30px;
+    background-color: #0594ed;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.retour>i {
+    font-size: 20px;
+}
+
+.retour:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.retour:hover i {
+    color: #0594ed !important;
+}
+
+.container_logo_projet {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_projet {
+    display: flex;
+    width: 1100px;
+    height: 450px;
+    left: 162px;
+    margin-top: 69px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.logo_projet>img {
+    margin: auto;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    max-height: 80%;
+}
+
+.container_information_projet {
+    margin-top: 50px;
+}
+
+.titre_projet {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 107.3%;
+}
+
+.information_projet {
+    display: flex;
+    margin-top: 20px;
+}
+
+.details_projet {
+    width: 510px;
+}
+
+.details_projet>h3 {
+    width: 129px;
+}
+
+.description_projet {
+    width: 600px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.precision_projet {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.equipe, .imagesSite{
+    display:flex;
+    flex-direction: column;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+}
